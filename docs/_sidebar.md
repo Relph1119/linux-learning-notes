@@ -8,6 +8,8 @@
             * [扩展阅读：什么是中断](linux-source-code-reading/part01/references-interrupt.md)
             * [扩展阅读：什么是软中断](linux-source-code-reading/part01/references-software-interrupt.md)
             * [第5回 将重要的操作系统代码放在零地址处](linux-source-code-reading/part01/ch05.md)
+            * [第6回 解决段寄存器的历史包袱问题](linux-source-code-reading/part01/ch06.md)
+            * [第7回 六行代码进入保护模式](linux-source-code-reading/part01/ch07.md)
         * 第二部分 “大战”前期的初始化工作
         * 第三部分 一个新进程的诞生
         * 第四部分 shell程序的由来
