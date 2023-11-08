@@ -14,6 +14,9 @@
             * [第9回 开启分页机制](linux-source-code-reading/part01/ch09.md)
             * [第10回 进入main函数前的最后一跃](linux-source-code-reading/part01/ch10.md)
         * 第二部分 “大战”前期的初始化工作
+            * [第11回 整个操作系统就二十几行](linux-source-code-reading/part02/ch11.md)
+            * [第12回 管理内存前先划分出三个边界值](linux-source-code-reading/part02/ch12.md)
+            * [第13回 主内存初始化mem_init](linux-source-code-reading/part02/ch13.md)
         * 第三部分 一个新进程的诞生
         * 第四部分 shell程序的由来
         * 第五部分 一条shell命令的执行
