@@ -12,6 +12,7 @@
             * [第7回 六行代码进入保护模式](linux-source-code-reading/part01/ch07.md)
             * [第8回 重新设置中断描述符表与全局描述符表](linux-source-code-reading/part01/ch08.md)
             * [第9回 开启分页机制](linux-source-code-reading/part01/ch09.md)
+            * [第10回 进入main函数前的最后一跃](linux-source-code-reading/part01/ch10.md)
         * 第二部分 “大战”前期的初始化工作
         * 第三部分 一个新进程的诞生
         * 第四部分 shell程序的由来
