@@ -17,6 +17,8 @@
             * [第11回 整个操作系统就二十几行](linux-source-code-reading/part02/ch11.md)
             * [第12回 管理内存前先划分出三个边界值](linux-source-code-reading/part02/ch12.md)
             * [第13回 主内存初始化mem_init](linux-source-code-reading/part02/ch13.md)
+            * [第14回 中断初始化trap_init](linux-source-code-reading/part02/ch14.md)
+            * [第15回 块设备请求项初始化blk_dev_init](linux-source-code-reading/part02/ch15.md)
         * 第三部分 一个新进程的诞生
         * 第四部分 shell程序的由来
         * 第五部分 一条shell命令的执行
