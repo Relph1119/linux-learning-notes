@@ -19,6 +19,11 @@
             * [第13回 主内存初始化mem_init](linux-source-code-reading/part02/ch13.md)
             * [第14回 中断初始化trap_init](linux-source-code-reading/part02/ch14.md)
             * [第15回 块设备请求项初始化blk_dev_init](linux-source-code-reading/part02/ch15.md)
+            * [第16回 控制台初始化tty_init](linux-source-code-reading/part02/ch16.md)
+            * [第17回 时间初始化time_init](linux-source-code-reading/part02/ch17.md)
+            * [第18回 进程调度初始化sched_init](linux-source-code-reading/part02/ch18.md)
+            * [第19回 缓冲区初始化buffer_init](linux-source-code-reading/part02/ch19.md)
+            * [第20回 硬盘初始化hd_init](linux-source-code-reading/part02/ch20.md)
         * 第三部分 一个新进程的诞生
         * 第四部分 shell程序的由来
         * 第五部分 一条shell命令的执行
