@@ -25,5 +25,7 @@
             * [第19回 缓冲区初始化buffer_init](linux-source-code-reading/part02/ch19.md)
             * [第20回 硬盘初始化hd_init](linux-source-code-reading/part02/ch20.md)
         * 第三部分 一个新进程的诞生
+            * [第21回 第3部分全局概览](linux-source-code-reading/part03/ch21.md)
+            * [第22回 从内核态切换到用户态](linux-source-code-reading/part03/ch22.md)
         * 第四部分 shell程序的由来
         * 第五部分 一条shell命令的执行
