@@ -27,5 +27,12 @@
         * 第三部分 一个新进程的诞生
             * [第21回 第3部分全局概览](linux-source-code-reading/part03/ch21.md)
             * [第22回 从内核态切换到用户态](linux-source-code-reading/part03/ch22.md)
+            * [第23回 如果让你来设计进程调度](linux-source-code-reading/part03/ch23.md)
+            * [第24回 从一次定时器滴答来看进程调度](linux-source-code-reading/part03/ch24.md)
+            * [第25回 通过fork看一次系统调用](linux-source-code-reading/part03/ch25.md)
+            * [第26回 fork函数中进程基本信息的复制](linux-source-code-reading/part03/ch26.md)
+            * [第27回 透过fork来看进程的内存规划](linux-source-code-reading/part03/ch27.md)
+            * [第29回 番外篇：写时复制——就这么几行代码](linux-source-code-reading/part03/ch29.md)
+            * [第30回 番外篇：你管这破玩意叫文件系统](linux-source-code-reading/part03/ch30.md)
         * 第四部分 shell程序的由来
         * 第五部分 一条shell命令的执行
