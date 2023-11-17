@@ -35,4 +35,9 @@
             * [第29回 番外篇：写时复制——就这么几行代码](linux-source-code-reading/part03/ch29.md)
             * [第30回 番外篇：你管这破玩意叫文件系统](linux-source-code-reading/part03/ch30.md)
         * 第四部分 shell程序的由来
+            * [第31回 拿到硬盘信息](linux-source-code-reading/part04/ch31.md)     
+            * [第32回 加载根文件系统](linux-source-code-reading/part04/ch32.md)     
+            * [第33回 打开终端设备文件](linux-source-code-reading/part04/ch33.md)     
+            * [第34回 进程2的创建](linux-source-code-reading/part04/ch34.md)     
+            * [第35回 execve加载并执行shell程序](linux-source-code-reading/part04/ch35.md)     
         * 第五部分 一条shell命令的执行
