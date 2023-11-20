@@ -39,5 +39,6 @@
             * [第32回 加载根文件系统](linux-source-code-reading/part04/ch32.md)     
             * [第33回 打开终端设备文件](linux-source-code-reading/part04/ch33.md)     
             * [第34回 进程2的创建](linux-source-code-reading/part04/ch34.md)     
-            * [第35回 execve加载并执行shell程序](linux-source-code-reading/part04/ch35.md)     
+            * [第35回 execve加载并执行shell程序](linux-source-code-reading/part04/ch35.md)    
+            * [第36回 缺页中断](linux-source-code-reading/part04/ch36.md)
         * 第五部分 一条shell命令的执行
