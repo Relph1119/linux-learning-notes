@@ -42,3 +42,8 @@
             * [第35回 execve加载并执行shell程序](linux-source-code-reading/part04/ch35.md)    
             * [第36回 缺页中断](linux-source-code-reading/part04/ch36.md)
         * 第五部分 一条shell命令的执行
+            * [第42回 用键盘输入一条命令](linux-source-code-reading/part05/ch42.md)     
+            * [第43回 shell程序读取你的命令](linux-source-code-reading/part05/ch43.md)     
+            * [第44回 进程的阻塞与唤醒](linux-source-code-reading/part05/ch44.md)     
+            * [第45回 解析并执行shell命令](linux-source-code-reading/part05/ch45.md)     
+            * [第46回 读硬盘数据全流程](linux-source-code-reading/part05/ch46.md)     

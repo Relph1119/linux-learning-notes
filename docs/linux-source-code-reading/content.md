@@ -3,6 +3,7 @@
 - Linux代码获取地址：https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/
 - Linux内核版本：V0.11
 - 本书资料：https://github.com/dibingfa/flash-linux0.11-talk
+- xv6操作系统：https://github.com/mit-pdos/xv6-public
 
 ## 第一部分 进入内核前的苦力活
 
@@ -54,8 +55,8 @@
 
 **注：** gdb target remote报错的解决方案
 
-> warning: Selected architecture i386 is not compatible with reported target architecture i386:x86-64
-warning: Architecture rejected target-supplied description
+> warning: Selected architecture i386 is not compatible with reported target architecture i386:x86-64  
+warning: Architecture rejected target-supplied description  
 
 这个警告信息表示选择的架构（i386）与目标架构（i386:x86-64）不兼容，我们需要选择一个与目标架构兼容的架构，需要修改gdb的执行参数：
 
