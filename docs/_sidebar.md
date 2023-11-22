@@ -47,3 +47,5 @@
             * [第44回 进程的阻塞与唤醒](linux-source-code-reading/part05/ch44.md)     
             * [第45回 解析并执行shell命令](linux-source-code-reading/part05/ch45.md)     
             * [第46回 读硬盘数据全流程](linux-source-code-reading/part05/ch46.md)     
+            * [第47回 读取硬盘数据的细节](linux-source-code-reading/part05/ch47.md)
+            * [第48回 信号](linux-source-code-reading/part05/ch48.md)
