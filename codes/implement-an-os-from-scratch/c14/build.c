@@ -3,6 +3,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+/*
+ * 将多个文件成为一个kernel.bin文件
+ */
 int main() {   
     int fd, fd_kernel;
     int c;
