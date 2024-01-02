@@ -22,6 +22,62 @@ implement-an-os-from-scratch------------代码
 +---c14-------------------------------------第14章显示及输入
 </pre>
 
+## 项目环境
+
+1. 准备“物理”计算机
+
+```shell
+cd ~
+mkdir -p LearniongMore/codes
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/maz/kvmtool.git
+```
+
+2. 安装`SDL`库
+```shell
+sudo apt-get install libsdl1.2-dev
+```
+
+3. 修改串口打印格式
+
+代码路径：`kvmtool/hw/serial.c`
+```c
+static void serial8250_flush_tx(struct kvm *kvm, struct serial8250_device *dev)
+{
+	dev->lsr |= UART_LSR_TEMT | UART_LSR_THRE;
+
+	if (dev->txcnt) {
+		//term_putc(dev->txbuf, dev->txcnt, dev->id);
+		dev->txcnt = 0;
+	}
+}
+```
+
+```c
+static bool serial8250_out(struct ioport *ioport, struct kvm_cpu *vcpu, u16 port,
+			   void *data, int size)
+{
+	...
+
+	switch (offset) {
+	case UART_TX:
+        fprintf(stderr, "output: %lx\n", *((unsigned long *) data));
+		fprintf(stderr, "%s\n", ((char *) data));
+
+		if (dev->lcr & UART_LCR_DLAB) {
+			dev->dll = ioport__read8(data);
+			break;
+		}
+    
+    ...
+```
+
+4. 编译`kvmtool`
+
+```shell
+cd ~/kvmtool
+make
+```
+
 ## 本书勘误
 
 勘误地址：https://book.douban.com/subject/36560814/discussion/637560822/
