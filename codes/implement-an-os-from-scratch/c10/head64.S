@@ -55,7 +55,7 @@ idtr:
 .fill 4096, 1, 0
 task0_stack:
 
-# 从栈中弹出断点信息，返回用户空间
+# 在执行iret前，初始化其他段寄存器，之后再从栈中弹出断点信息，返回用户空间
 ret_from_kernel:
     mov $USER_DS, %rax
     movw %ax, %ds
