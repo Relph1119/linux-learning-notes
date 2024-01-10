@@ -12,12 +12,12 @@
 
 // 中断描述符
 struct gate_desc {
-  uint16_t offset_low; // 中断处理函数地址0~15位
-  uint16_t segment; // 段选择子
-  uint16_t ist : 3, zero : 5, type : 4, zero2 : 1, dpl : 2, p : 1; // ist：中断栈索引；type：中断类型（中断1110/异常1111）；dpl：特权级；p：存在位
-  uint16_t offset_middle; // 中断处理函数地址16~31位
-  uint32_t offset_high;  // 中断处理函数地址32~63位
-  uint32_t reserved; // 保留
+    uint16_t offset_low; // 中断处理函数地址0~15位
+    uint16_t segment; // 段选择子
+    uint16_t ist : 3, zero : 5, type : 4, zero2 : 1, dpl : 2, p : 1; // ist：中断栈索引；type：中断类型（中断1110/异常1111）；dpl：特权级；p：存在位
+    uint16_t offset_middle; // 中断处理函数地址16~31位
+    uint32_t offset_high;  // 中断处理函数地址32~63位
+    uint32_t reserved; // 保留
 } __attribute__((packed));
 
 // 定义256项中断和异常，中断描述符表

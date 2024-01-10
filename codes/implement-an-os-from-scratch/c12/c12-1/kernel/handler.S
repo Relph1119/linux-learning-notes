@@ -69,6 +69,7 @@ timer_handler:
 
     # 恢复上下文
     RESTORE_CONTEXT
+    # IF位自动复位，再次开启中断
     iretq
 
 pf_handler:
