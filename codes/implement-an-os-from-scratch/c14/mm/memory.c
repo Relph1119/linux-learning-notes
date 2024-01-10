@@ -73,6 +73,7 @@ void mm_init() {
 
     // 计算物理内存区域
     for (int i = 0; i < e820->nr_entry; i++) {
+        // 当类型为RAM时，表示可用物理内存区域
         if (e820->map[i].type == E820_RAM) {
             // 将内存区域的起始地址与长度相加，得到内存地址
             unsigned long tmp = e820->map[i].addr + e820->map[i].size;

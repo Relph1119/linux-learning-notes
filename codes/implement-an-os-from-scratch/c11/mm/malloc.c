@@ -9,8 +9,8 @@ struct bucket_desc {
 };
 
 struct bucket_dir {
-  uint16_t size; // 块大小
-  struct bucket_desc* bdesc; // 对应的桶链表
+    uint16_t size; // 块大小
+    struct bucket_desc* bdesc; // 对应的桶链表
 };
 
 // 分为不同字节大小的内存块
