@@ -49,7 +49,7 @@
             * [第46回 读硬盘数据全流程](linux-source-code-reading/part05/ch46.md)     
             * [第47回 读取硬盘数据的细节](linux-source-code-reading/part05/ch47.md)
             * [第48回 信号](linux-source-code-reading/part05/ch48.md)
-    * 《穿越操作系统迷雾》
+    * [《穿越操作系统迷雾》](implement-an-os-from-scratch/content.md)
         * [第6章 32位引导过程](implement-an-os-from-scratch/ch06.md)
         * [第7章 64位引导过程](implement-an-os-from-scratch/ch07.md)
         * [第8章 内存管理](implement-an-os-from-scratch/ch08.md)
