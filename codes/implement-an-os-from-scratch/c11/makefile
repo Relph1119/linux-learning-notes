@@ -57,8 +57,8 @@ build: build.c
 .PHONY: clean run
 
 run: kernel.bin
-	nohup ~/kvmtool/lkvm run -c 1 -k ./kernel.bin > messages.log
+	~/kvmtool/lkvm run -c 1 -k ./kernel.bin
 
 clean:
 	find -name "*.o" -o -name "*.elf" -o -name "*.bin" | xargs rm -f
-	rm -f build .depend messages.log
+	rm -f build .depend
